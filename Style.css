@@ -1,1 +1,511 @@
+  /* ======================================== 
 
+   REINICIO BÁSICO 
+
+======================================== */ 
+
+  
+
+* { 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    box-sizing: border-box; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   PÁGINA 
+
+======================================== */ 
+
+  
+
+body { 
+
+    font-family: Arial, sans-serif; 
+
+    background: #f2f2f2; 
+
+    color: #333; 
+
+    line-height: 1.6; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   HEADER 
+
+======================================== */ 
+
+  
+
+header { 
+
+    background: #1565c0; 
+
+    color: white; 
+
+    text-align: center; 
+
+    padding: 40px 20px; 
+
+    margin: 20px 20px 0; 
+
+    border: 3px solid #0d47a1; 
+
+    border-radius: 12px 12px 0 0; 
+
+} 
+
+  
+
+header h1 { 
+
+    font-size: 2.5rem; 
+
+    margin-bottom: 10px; 
+
+} 
+
+  
+
+header p { 
+
+    font-size: 1.1rem; 
+
+    margin: 0; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   NAVEGACIÓN 
+
+======================================== */ 
+
+  
+
+nav { 
+
+    background: #1976d2; 
+
+    margin: 0 20px; 
+
+} 
+
+  
+
+.navbar-brand { 
+
+    transition: 0.3s; 
+
+} 
+
+  
+
+.navbar-brand:hover { 
+
+    transform: scale(1.05); 
+
+} 
+
+  
+
+.nav-link { 
+
+    margin: 0 8px; 
+
+    transition: 0.3s; 
+
+} 
+
+  
+
+.nav-link:hover { 
+
+    color: #ffffff !important; 
+
+    background: #1565c0; 
+
+    border-radius: 6px; 
+
+} 
+
+  
+
+.nav-link.active { 
+
+    font-weight: bold; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   CONTENIDO PRINCIPAL 
+
+======================================== */ 
+
+  
+
+main { 
+
+    min-height: 400px; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   TARJETAS 
+
+======================================== */ 
+
+  
+
+.card { 
+
+    border: none; 
+
+    border-radius: 12px; 
+
+    overflow: hidden; 
+
+} 
+
+  
+
+.card-title { 
+
+    color: #1565c0; 
+
+    font-weight: bold; 
+
+    margin-bottom: 15px; 
+
+} 
+
+  
+
+.card-text { 
+
+    font-size: 1rem; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   IMAGEN PRINCIPAL 
+
+======================================== */ 
+
+  
+
+.imagen-principal { 
+
+    width: 100%; 
+
+    max-height: 400px; 
+
+    object-fit: cover; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   INFORMACIÓN ADICIONAL 
+
+======================================== */ 
+
+  
+
+.informacion { 
+
+    background: #dbeeff; 
+
+    border: 2px solid #64b5f6; 
+
+} 
+
+  
+
+.informacion h3 { 
+
+    color: #0d47a1; 
+
+} 
+
+  
+
+.informacion ul { 
+
+    padding-left: 20px; 
+
+} 
+
+  
+
+.informacion li { 
+
+    margin-bottom: 5px; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   BOTONES 
+
+======================================== */ 
+
+  
+
+.btn-primary { 
+
+    background: #1565c0; 
+
+    border-color: #1565c0; 
+
+} 
+
+  
+
+.btn-primary:hover { 
+
+    background: #0d47a1; 
+
+    border-color: #0d47a1; 
+
+} 
+
+  
+
+.btn-outline-primary { 
+
+    color: #1565c0; 
+
+    border-color: #1565c0; 
+
+} 
+
+  
+
+.btn-outline-primary:hover { 
+
+    background: #1565c0; 
+
+    border-color: #1565c0; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   SECCIONES EXTRA 
+
+======================================== */ 
+
+  
+
+.seccion-extra { 
+
+    background: white; 
+
+    padding: 30px; 
+
+    border-radius: 12px; 
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); 
+
+} 
+
+  
+
+.seccion-extra h2 { 
+
+    color: #1565c0; 
+
+    margin-bottom: 15px; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   SERVICIOS 
+
+======================================== */ 
+
+  
+
+.servicio { 
+
+    background: #f8f9fa; 
+
+    border: 2px solid #dbeeff; 
+
+    padding: 20px; 
+
+    height: 100%; 
+
+    border-radius: 10px; 
+
+    transition: 0.3s; 
+
+} 
+
+  
+
+.servicio:hover { 
+
+    transform: translateY(-5px); 
+
+    border-color: #64b5f6; 
+
+} 
+
+  
+
+.servicio h4 { 
+
+    color: #1565c0; 
+
+    margin-bottom: 10px; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   FOOTER 
+
+======================================== */ 
+
+  
+
+footer { 
+
+    background: #0d47a1; 
+
+    color: white; 
+
+    text-align: center; 
+
+    padding: 25px 20px; 
+
+    margin: 20px; 
+
+    border-radius: 10px; 
+
+} 
+
+  
+
+footer p { 
+
+    margin: 5px 0; 
+
+} 
+
+  
+
+  
+
+/* ======================================== 
+
+   DISEÑO RESPONSIVE 
+
+======================================== */ 
+
+  
+
+@media (max-width: 768px) { 
+
+  
+
+    header { 
+
+        margin: 10px 10px 0; 
+
+        padding: 30px 15px; 
+
+    } 
+
+  
+
+    header h1 { 
+
+        font-size: 2rem; 
+
+    } 
+
+  
+
+    nav { 
+
+        margin: 0 10px; 
+
+    } 
+
+  
+
+    .nav-link { 
+
+        margin: 3px 0; 
+
+    } 
+
+  
+
+    footer { 
+
+        margin: 10px; 
+
+    } 
+
+  
+
+} 
